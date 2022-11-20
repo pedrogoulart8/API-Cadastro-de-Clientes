@@ -1,0 +1,9 @@
+
+label.error{
+    position: static;
+    color: red;      
+    font-size: 12px !important; 
+  
+    opacity: 1 !important;
+    transform: none !important;
+}

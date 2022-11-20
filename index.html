@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+
+
+<body>
+    
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Deseja sair do sistema?</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <a href="sair.html" type="button" class="btn btn-danger">Sair do sistema</a> 
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Modal LGPD -->
+<div class="modal fade" id="lgpdModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">LGPD</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        Nós utilizamos cookies e outras tecnologias semelhantes para coletar dados durante a navegação para melhorar a sua experiência em nossos serviços. Saiba mais em nossa Política de privacidade e Cookies.
+        <a href="#">Politica de privacidade e Cookies</a>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" id="btnLgpd" class="btn btn-primary" data-bs-dismiss="modal">Aceito</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="col-3 bg-black vh-100">
+              
+              <div class="logo text-white mt-2">
+
+                <span class="h5"> <i class="bi bi-cup-hot-fill"></i> Pedro Goulart - Admin</span>
+                <hr>
+              </div>
+
+              <nav>
+
+                <a href="#" class="btn btn-outline-light d-block mb-2"> <i class="bi bi-house"></i> Home</a>
+                <a href="#" class="btn btn-light d-block mb-2"> <i class="bi bi-pencil-square"></i> Cadastrar Cliente</a>
+                <a href="#" class="btn btn-light d-block mb-2"> <i class="bi bi-journal"></i> Consultar histórico</a>
+                <a data-bs-toggle="modal" data-bs-target="#exampleModal" href="#" class="btn btn-outline-danger d-block mb-2"> <i class="bi bi-door-open-fill"></i> Sair</a>
+                
+
+              </nav>
+
+
+
+            </div>
+
+
+            <div class="col-9 bg-light">
+
+                <nav class="navbar navbar-expand-lg bg-light shadow">
+
+                    <div class="container-fluid justify-content-end">
+                      
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+
+                      <div class="collapse navbar-collapse justify-content-end me-lg-3" id="navbarNavDropdown">
+                        <ul class="navbar-nav text-end me-lg-4">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown link
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+</body>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+</html>
