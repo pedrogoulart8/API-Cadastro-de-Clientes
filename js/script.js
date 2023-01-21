@@ -6,7 +6,7 @@ const btnLgpd = document.querySelector('#btnLgpd');
 
 
 
-//Associando o evento de click ao botão lgpd selecionado
+//Associando o evento de click ao botão lgpd selecionado.
 btnLgpd.addEventListener('click', function(){
     
     //inserindo chave e valor após o click desse botão. Neste caso para registrar no servidor local
