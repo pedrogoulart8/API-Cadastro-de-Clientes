@@ -15,7 +15,7 @@ btnLgpd.addEventListener('click', function(){
 
 })
 
-//Se a chave, chamada de 'fechouLgpd' for diferente do valor 'sim', ou seja, a pessoa nunca clicou pra aceitar o modal, abrir modal no navegador
+//Se a chave, chamada de 'fechouLgpd' for diferente do valor 'sim', ou seja, a pessoa nunca clicou pra aceitar o modal, abrir modal no navegador.
 if(localStorage.getItem('fechouLgpd') != 'sim'){
     lgpdModal.show();
 }
